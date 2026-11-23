@@ -1,7 +1,7 @@
 <?php
-$host     = '127.0.0.1';
+$host     = 'mysql';
 $username = 'root';
-$password = ''; 
+$password = 'password';
 $dbname   = 'travel_projectdigabung';
 
 $conn = new mysqli($host, $username, $password, $dbname);
